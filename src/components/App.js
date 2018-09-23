@@ -37,7 +37,7 @@ class App extends React.Component {
   }
 
   render() {
-    
+
     return (
       <div>
         <Filter filters={this.state.filters} handleChange={this.handleChange}/>
